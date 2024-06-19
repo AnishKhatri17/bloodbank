@@ -1,0 +1,87 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif ;
+}
+body{
+    display: flex;
+    
+}
+.sidebar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 100vh;
+    padding: -1px 1.3rem;
+    color: #d75555;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: rgb(118, 188, 104);
+}
+/*transition
+/*.sidebar{
+    width: 240px;
+    transition: 0.5s; 
+}*/
+.logo
+{
+    height: 40px;
+    padding: 16px;
+}
+.menu{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 5px;
+}
+.menu li{
+    padding: 1.3rem;
+    margin: 10px 0;
+    border-radius: 7px;
+    transition: all 0.7s ease-in-out;
+}
+.menu li:hover
+/* .active{ */{
+    background: rgba(255, 0, 0, 0.591);
+}
+.menu a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+.menu a span{
+    overflow: hidden;
+
+}
+.menu a i{
+
+    font-size: 1.5rem;
+}
+
+.log out{
+    position: absolute;
+   
+    bottom: 0;
+    top: 100px;
+    left:10px;
+    width: 100%
+}
+
+/* .logout{
+    position: relative;
+    top: 200px;
+    left: 50px;
+    width: 100%;
+} */
+/*main body section */
+
